@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <div class="containter">
     <title>Cchatz</title>
     <%= csrf_meta_tags %>
 
@@ -9,6 +10,21 @@
   </head>
 
   <body>
-    <%= yield %>
+  	<% if current_user %>
+  		<div class="alert alert-info">
+  			Welcome, <%= current_user.name %>
+  		</div>
+  	<% end %>
+  	<% if flash.any? %>
+  		<% flash.each do |key, value| %>
+  			<div class="alert <%= flash_class_name(key) %>">
+  				<%= value %>
+  			</div>
+  		<% end %>
+  	<% end %>
+	<div class="container">
+ 		<%= yield %>
+ 	</div>
+
   </body>
 </html>
