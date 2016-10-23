@@ -6,7 +6,7 @@ Submitted by: **Edward Kim**
 
 Time spent: **20** hours
 
-URL: **Insert your Heroku URL here**
+URL: **https://whispering-river-34192.herokuapp.com/**
 
 ## User Stories
 
@@ -17,7 +17,7 @@ The following **required** functionality is complete:
 * [x] User can login using an email and password. 
 * [ ] After logging in, the user is taken to a page that has a list of incoming messages, sorted in descending chronological order (newest messages at top), a "new message" link, an "add friends" link, and a "sent messages" link.
 * [ ] Unread messages should be **bold** or something similar in the list of messages. 
-* [ ] Clicking the "add friends" link takes the user to a page with all users listed, with a link to "add user to friends list". 
+* [x] Clicking the "add friends" link takes the user to a page with all users listed, with a link to "add user to friends list". 
 * [ ] Clicking on "new message" takes the user to a page where they can write a new mesasge. The recipient field should be a dropdown, where the options are names from the user's friends.
 * [ ] Clicking on "sent messages" takes the user to a page listing messages they have sent. Each message should display at what time it was read by the recipient, or "unread". The user cannot read the contents of the messages.
 * [ ] User can read a message's content only once. Once the message has been read, the user will see a page indicating the message has already been read.
@@ -44,7 +44,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](relative-path-to-your-gif-file-on-github-or-absolute-path-to-file-on-imgur-or-youtube)
+![Video Walkthrough](/cchatz_walkthrough.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
